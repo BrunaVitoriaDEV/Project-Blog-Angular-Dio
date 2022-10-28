@@ -1,0 +1,21 @@
+.container-menu{
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    border: solid 1px white;
+}
+
+.container-menu > ul{
+display: flex;
+flex-direction: row;
+text-decoration: none;
+}
+.container-menu > ul > li{
+    margin-right: 5px;
+    list-style-type: none;
+    }
+
+.container-menu > ul > li > a{
+    text-decoration: none;
+}    

@@ -1,0 +1,15 @@
+.container-title{
+    width: 100%;
+}
+.container-title>h1{
+    text-align: center;
+    align-items: center;
+    font-size: 150px;
+}
+@media (max-width: 900px)
+{
+    .container-title>h1
+   {
+    font-size: 50px;
+   }
+}

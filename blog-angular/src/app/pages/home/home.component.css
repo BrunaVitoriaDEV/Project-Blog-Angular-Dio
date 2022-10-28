@@ -1,0 +1,22 @@
+.container-father{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 1fr;
+
+}
+@media (max-width: 900px)
+{
+    .container-father
+   {
+    grid-template-columns: none;
+   }
+}
+.container-left{
+  align-items: center;
+}
+
+.container-right{
+    position: relative;
+    width: 100%;
+    overflow-x: auto;
+}
